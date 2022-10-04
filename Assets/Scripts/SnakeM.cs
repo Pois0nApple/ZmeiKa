@@ -11,7 +11,7 @@ public class SnakeM : MonoBehaviour
     float count = 0;
     public Text countText;
 
-    private const string COUNT_KEY = "count";
+    
     
     
 

@@ -18,7 +18,9 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         if (GameObject.FindWithTag("SnakeHead") != null)
-        { transform.position = objFollow.position + deltaPos; }
+        { 
+            transform.position = objFollow.position + deltaPos; 
+        }
            
 
     }

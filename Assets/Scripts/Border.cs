@@ -8,9 +8,11 @@ public class Border : MonoBehaviour
     {
         if (other.CompareTag("SnakeHead"))
         {
-                if (GameObject.FindWithTag("SnakeHead") != null)
+            if (GameObject.FindWithTag("SnakeHead") != null)
+            {
                 Destroy(other.gameObject);
-                Application.LoadLevel(Application.loadedLevel); 
+                Application.LoadLevel(Application.loadedLevel);
+            }
             
             
 
