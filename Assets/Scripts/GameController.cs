@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     {
         if (GameObject.FindWithTag("SnakeHead") != null)
         {
-            if (Player.position.z > spawnedLevels[spawnedLevels.Count - 1].End.position.z - 55)
+            if (Player.position.z > spawnedLevels[spawnedLevels.Count - 1].End.position.z - 60)
             {
 
                 SpawnLevel();
